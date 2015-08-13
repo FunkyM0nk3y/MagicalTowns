@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+      <TableRow>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/imgFoto"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher"/>
+        <TableLayout>
+          <TableRow>
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/txtNombre"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:id="@+id/txtNombre" />
+          </TableRow>
+          <TableRow>
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/txtEstado"
+                android:id="@+id/txtEstado"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="16dp" />
+          </TableRow>
+        </TableLayout>
+      </TableRow>
+    </TableLayout>
+</RelativeLayout>

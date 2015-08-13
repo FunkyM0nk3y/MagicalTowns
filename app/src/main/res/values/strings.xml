@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">MagicalTowns</string>
+
+  <string name="action_settings">Settings</string>
+  <string name="txtNombre">Nombre</string>
+  <string name="txtEstado">Estado</string>
+  <string name="txtFiestas">Fiestas</string>
+  <string name="txtComida">Comida</string>
+</resources>
